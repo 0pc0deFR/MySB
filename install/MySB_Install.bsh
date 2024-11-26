@@ -346,7 +346,7 @@ SystemChecks() {
         echo -e "${CYELLOW}Distributor ID	: ${CEND}${CGREEN}${sOS_Id}${CEND}"
     fi
     case "${sOS_Ver}" in
-        10) echo -e "${CYELLOW}Release		: ${CEND}${CGREEN}${sOS_Ver}${CEND}" ;;
+        12) echo -e "${CYELLOW}Release		: ${CEND}${CGREEN}${sOS_Ver}${CEND}" ;;
         *)
             echo -e "${CYELLOW}Release		: ${CEND}${CRED}${sOS_Ver}${CEND}"
             nContinue=1
